@@ -7,6 +7,7 @@ public class HideTitle {
     String title;
     String str;
     char letter;
+    int j=0;
     void hideTit() {
         str = title.replaceAll("[a-zA-Z]", "_");
         System.out.println(str);
@@ -20,30 +21,23 @@ public class HideTitle {
         }
         for (int i = 0; i < str.length(); i++) {
             tabstr[i] = str.charAt(i);
+
         }
         while (str.contains("_")) {
+            System.out.println(str);
             Scanner scan = new Scanner(System.in);
             System.out.println("Enter the letter:");
-            //letter = scan.nextLine();
             letter = scan.next().charAt(0);
-
             for (int i = 0; i < title.length(); i++) {
                 if (tab[i] == letter){
                     tabstr[i]=letter;
-                    System.out.println(tabstr);
-                    //tabstr.toString();
-                    //str = tabstr
-
+                    String tabstrString = String.valueOf(tabstr);
+                    str =tabstrString;
                 }
-
-               // System.out.print(tab[i] + " ");
             }
-            //    System.out.println(tab[3]);
-           // break;
         }
-        System.out.println("Brawo! You guess the title!");
+        System.out.println("Brawo! You guess the title! The title is: " +title);
     }
-
 }
 
 
