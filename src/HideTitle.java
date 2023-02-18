@@ -10,7 +10,7 @@ public class HideTitle {
     int j=0;
     void hideTit() {
         str = title.replaceAll("[a-zA-Z]", "_");
-        System.out.println(str);
+       // System.out.println(str);
     }
 
     void guessTheMovie() {
@@ -26,7 +26,7 @@ public class HideTitle {
         while (str.contains("_")) {
             System.out.println(str);
             Scanner scan = new Scanner(System.in);
-            System.out.println("Enter the letter:");
+            System.out.println("Guess a letter:");
             letter = scan.next().charAt(0);
             for (int i = 0; i < title.length(); i++) {
                 if (tab[i] == letter){
@@ -36,7 +36,7 @@ public class HideTitle {
                 }
             }
         }
-        System.out.println("Brawo! You guess the title! The title is: " +title);
+        System.out.println("Brawo! You win! You have gueesed '" +title + "' correctly.");
     }
 }
 
