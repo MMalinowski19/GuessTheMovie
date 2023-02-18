@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="210909e3-7d83-4540-8538-28c32581407f" name="Changes" comment="Program is hiding titles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HideTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HideTitle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,8 @@
       <workItem from="1676658588301" duration="231000" />
       <workItem from="1676658912470" duration="4653000" />
       <workItem from="1676674012525" duration="2714000" />
-      <workItem from="1676715373151" duration="11663000" />
+      <workItem from="1676715373151" duration="11765000" />
+      <workItem from="1676736063433" duration="2255000" />
     </task>
     <task id="LOCAL-00001" summary="First part">
       <created>1676676969681</created>
@@ -85,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676717989509</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Program is hiding titles">
+      <created>1676727567035</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676727567035</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
