@@ -22,8 +22,12 @@ public class Game {
         int FilmNumb = (int) (numberRandom * numberOfFilms +1);
         //System.out.println(FilmNumb);
         System.out.println(list.get(FilmNumb));
-
+        String s = list.get(FilmNumb);
         //hideTitle
+        HideTitle filmHide = new HideTitle();
+        filmHide.title = s;
+        filmHide.hideTit();
+        //ArrayList <String> title = new ArrayList<>();
 
 
 
