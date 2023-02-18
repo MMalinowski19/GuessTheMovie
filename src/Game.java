@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Game {
     public static void main(String[] args) throws Exception{
         int numberOfFilms=0;
+        String letter;
 
         ArrayList <String> list = new ArrayList<>();
         File file = new File("films.txt");
@@ -27,7 +28,12 @@ public class Game {
         HideTitle filmHide = new HideTitle();
         filmHide.title = s;
         filmHide.hideTit();
-        //ArrayList <String> title = new ArrayList<>();
+        //GuessTheMovie
+        //filmHide.letter = ;
+        filmHide.guessTheMovie();
+
+
+
 
 
 
